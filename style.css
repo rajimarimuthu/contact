@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ body{
 .wrapper .img-area,
 .social-icons a,
 .buttons button{
-  background: #ecf0f3;
+  background: #fff;
   box-shadow: -3px -3px 7px #ffffff,
                3px 3px 5px #ceced1;
 }
@@ -29,9 +29,9 @@ body{
   --tw-shadow-colored: 0px 4px 24px 0px var(--tw-shadow-color), 0px 1px 2px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   position: relative;
-  width: 350px;
-  padding: 30px;
-  border-radius: 10px;
+  width: 418px;
+    padding: 30px;
+    border-radius: 27px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,26 +70,42 @@ body{
   justify-content: center;
 }
 .img-area .inner-area{
-  height: calc(100% - 25px);
+  /* height: calc(100% - 25px); */
   width: calc(100% - 25px);
   border-radius: 50%;
 }
 .inner-area img{
   height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 69%;
+  /* border-radius: 50%; */
+  /* object-fit: cover; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: -10px;
+
 }
 .wrapper .name{
-  font-size: 27px;
-  font-weight: 500;
-  color: #124e59;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0e4e5a;
   margin: 10px 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.wrapper .last{
+  font-size: 22px;
+  font-weight: 600;
+  color: #0e4e5a;
+  margin: 10px 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 .wrapper .about{
-  color: #44476a;
+  color: #0e4e5a;
   font-weight: 400;
   font-size: 16px;
+  margin: 5px 0px;
 }
 .wrapper .social-icons{
   margin: 20px 0 25px 0;
@@ -114,7 +130,7 @@ body{
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #ecf0f3;
+  background: #fff;
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
 }
@@ -141,6 +157,9 @@ body{
 }
 .social-icons a.yt i{
   color: #E60023
+}
+.social-icons a.wa i{
+  color: #25D366
 }
 .wrapper .buttons{
   display: flex;
@@ -211,7 +230,9 @@ body{
 
 }
 .social-icons1 .fa-solid {
-  background-color: #009a98;
+  background: #009997;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  /* background-color: #009a98; */
   color:white;
   padding: 5px;
  border-radius: 50%;
@@ -223,3 +244,5 @@ body{
   color: black;
   text-decoration: none;
 }
+
+
